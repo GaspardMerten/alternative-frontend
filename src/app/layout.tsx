@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-    title: 'Impact Search',
+    title: 'Markethique - Trouvez des alternatives engagées à vos marques préférées',
     description: 'Trouvez des alternatives engagées à vos marques préférées',
 };
 

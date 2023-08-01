@@ -7,10 +7,8 @@ body {
 }
 
 @layer utilities {
-    @variants md {
-        .pt-md-padding {
-            padding-top: min(max(calc(100vh - 650px), 50px), 300px);
-        }
+    .pt-md-padding {
+        padding-top: min(max(calc(100vh - 650px), 50px), 300px);
     }
 }
 

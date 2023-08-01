@@ -1,0 +1,180 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="title" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HttpUrlsUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredUrls">
+        <list>
+          <option value="http://localhost" />
+          <option value="http://127.0.0.1" />
+          <option value="http://0.0.0.0" />
+          <option value="http://www.w3.org/" />
+          <option value="http://json-schema.org/draft" />
+          <option value="http://java.sun.com/" />
+          <option value="http://xmlns.jcp.org/" />
+          <option value="http://javafx.com/javafx/" />
+          <option value="http://javafx.com/fxml" />
+          <option value="http://maven.apache.org/xsd/" />
+          <option value="http://maven.apache.org/POM/" />
+          <option value="http://www.springframework.org/schema/" />
+          <option value="http://www.springframework.org/tags" />
+          <option value="http://www.springframework.org/security/tags" />
+          <option value="http://www.thymeleaf.org" />
+          <option value="http://www.jboss.org/j2ee/schema/" />
+          <option value="http://www.jboss.com/xml/ns/" />
+          <option value="http://www.ibm.com/webservices/xsd" />
+          <option value="http://activemq.apache.org/schema/" />
+          <option value="http://schema.cloudfoundry.org/spring/" />
+          <option value="http://schemas.xmlsoap.org/" />
+          <option value="http://cxf.apache.org/schemas/" />
+          <option value="http://primefaces.org/ui" />
+          <option value="http://tiles.apache.org/" />
+          <option value="http://{host}" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="JupyterPackageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyAbstractClassInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="100">
+            <item index="0" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="1" class="java.lang.String" itemvalue="black" />
+            <item index="2" class="java.lang.String" itemvalue="django-nested-admin" />
+            <item index="3" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="4" class="java.lang.String" itemvalue="django" />
+            <item index="5" class="java.lang.String" itemvalue="django-filter" />
+            <item index="6" class="java.lang.String" itemvalue="django-resized" />
+            <item index="7" class="java.lang.String" itemvalue="markdown" />
+            <item index="8" class="java.lang.String" itemvalue="pillow" />
+            <item index="9" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="10" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="11" class="java.lang.String" itemvalue="django-cors-headers" />
+            <item index="12" class="java.lang.String" itemvalue="AppNexus-client" />
+            <item index="13" class="java.lang.String" itemvalue="pandas" />
+            <item index="14" class="java.lang.String" itemvalue="seaborn" />
+            <item index="15" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="16" class="java.lang.String" itemvalue="numpy" />
+            <item index="17" class="java.lang.String" itemvalue="pyopenssl" />
+            <item index="18" class="java.lang.String" itemvalue="requests" />
+            <item index="19" class="java.lang.String" itemvalue="chardet" />
+            <item index="20" class="java.lang.String" itemvalue="netlib" />
+            <item index="21" class="java.lang.String" itemvalue="mitmproxy" />
+            <item index="22" class="java.lang.String" itemvalue="cryptography" />
+            <item index="23" class="java.lang.String" itemvalue="hyper" />
+            <item index="24" class="java.lang.String" itemvalue="httpx" />
+            <item index="25" class="java.lang.String" itemvalue="schedule" />
+            <item index="26" class="java.lang.String" itemvalue="django-crontab" />
+            <item index="27" class="java.lang.String" itemvalue="folium" />
+            <item index="28" class="java.lang.String" itemvalue="geopandas" />
+            <item index="29" class="java.lang.String" itemvalue="partridge" />
+            <item index="30" class="java.lang.String" itemvalue="jenkspy" />
+            <item index="31" class="java.lang.String" itemvalue="plotly" />
+            <item index="32" class="java.lang.String" itemvalue="rtree" />
+            <item index="33" class="java.lang.String" itemvalue="utm" />
+            <item index="34" class="java.lang.String" itemvalue="django-admin-rangefilter" />
+            <item index="35" class="java.lang.String" itemvalue="pdfkit" />
+            <item index="36" class="java.lang.String" itemvalue="django-storages" />
+            <item index="37" class="java.lang.String" itemvalue="django-scheduler" />
+            <item index="38" class="java.lang.String" itemvalue="django-admin-autocomplete-filter" />
+            <item index="39" class="java.lang.String" itemvalue="django-modeltranslation" />
+            <item index="40" class="java.lang.String" itemvalue="django-admin-interface" />
+            <item index="41" class="java.lang.String" itemvalue="django-reversion" />
+            <item index="42" class="java.lang.String" itemvalue="XlsxWriter" />
+            <item index="43" class="java.lang.String" itemvalue="django-smart-selects" />
+            <item index="44" class="java.lang.String" itemvalue="django-multi-email-field" />
+            <item index="45" class="java.lang.String" itemvalue="django-model-utils" />
+            <item index="46" class="java.lang.String" itemvalue="PyPDF2" />
+            <item index="47" class="java.lang.String" itemvalue="django-mailjet" />
+            <item index="48" class="java.lang.String" itemvalue="django-admin-ordering" />
+            <item index="49" class="java.lang.String" itemvalue="fpdf2" />
+            <item index="50" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="51" class="java.lang.String" itemvalue="django-json-widget" />
+            <item index="52" class="java.lang.String" itemvalue="tzdata" />
+            <item index="53" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="54" class="java.lang.String" itemvalue="rel" />
+            <item index="55" class="java.lang.String" itemvalue="websocket-client" />
+            <item index="56" class="java.lang.String" itemvalue="django-markdownfield" />
+            <item index="57" class="java.lang.String" itemvalue="django-compressor" />
+            <item index="58" class="java.lang.String" itemvalue="django-orderable" />
+            <item index="59" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="60" class="java.lang.String" itemvalue="requests-cache" />
+            <item index="61" class="java.lang.String" itemvalue="openpyxl" />
+            <item index="62" class="java.lang.String" itemvalue="geopy" />
+            <item index="63" class="java.lang.String" itemvalue="gtfs-realtime-bindings" />
+            <item index="64" class="java.lang.String" itemvalue="shapely" />
+            <item index="65" class="java.lang.String" itemvalue="deepl" />
+            <item index="66" class="java.lang.String" itemvalue="openai" />
+            <item index="67" class="java.lang.String" itemvalue="azureml-dataprep" />
+            <item index="68" class="java.lang.String" itemvalue="azureml-core" />
+            <item index="69" class="java.lang.String" itemvalue="azureml-interpret" />
+            <item index="70" class="java.lang.String" itemvalue="inference-schema" />
+            <item index="71" class="java.lang.String" itemvalue="fbprophet" />
+            <item index="72" class="java.lang.String" itemvalue="holidays" />
+            <item index="73" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="74" class="java.lang.String" itemvalue="azureml-defaults" />
+            <item index="75" class="java.lang.String" itemvalue="psutil" />
+            <item index="76" class="java.lang.String" itemvalue="azureml-train-automl-runtime" />
+            <item index="77" class="java.lang.String" itemvalue="scipy" />
+            <item index="78" class="java.lang.String" itemvalue="mpl-tools" />
+            <item index="79" class="java.lang.String" itemvalue="scikit-image" />
+            <item index="80" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="81" class="java.lang.String" itemvalue="dahuffman" />
+            <item index="82" class="java.lang.String" itemvalue="stable-baselines3" />
+            <item index="83" class="java.lang.String" itemvalue="gymnasium" />
+            <item index="84" class="java.lang.String" itemvalue="imageio" />
+            <item index="85" class="java.lang.String" itemvalue="django-extensions" />
+            <item index="86" class="java.lang.String" itemvalue="drf-yasg" />
+            <item index="87" class="java.lang.String" itemvalue="gtfs-kit" />
+            <item index="88" class="java.lang.String" itemvalue="movingpandas" />
+            <item index="89" class="java.lang.String" itemvalue="hvplot" />
+            <item index="90" class="java.lang.String" itemvalue="selenium" />
+            <item index="91" class="java.lang.String" itemvalue="nltk" />
+            <item index="92" class="java.lang.String" itemvalue="sentence-transformers" />
+            <item index="93" class="java.lang.String" itemvalue="sqlalchemy" />
+            <item index="94" class="java.lang.String" itemvalue="pgvector" />
+            <item index="95" class="java.lang.String" itemvalue="fastapi" />
+            <item index="96" class="java.lang.String" itemvalue="django-environ" />
+            <item index="97" class="java.lang.String" itemvalue="django-r" />
+            <item index="98" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="99" class="java.lang.String" itemvalue="contextily" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="appnexus.Campaign" />
+          <option value="appnexus.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

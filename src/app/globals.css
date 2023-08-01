@@ -2,26 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    background: #f7fafc;
 }
+
+@layer utilities {
+    @variants md {
+        .pt-md-padding {
+            padding-top: min(max(calc(100vh - 650px), 50px), 300px);
+        }
+    }
+}
+
+@keyframes skewAnimation {
+    0% {
+        transform: skewX(0deg);
+    }
+    50% {
+        transform: skewX(10deg);
+    }
+    100% {
+        transform: skewX(0deg);
+    }
+}
+
+.skew {
+    animation: skewAnimation 3s infinite;
+}
+

@@ -28,7 +28,7 @@ export default function Menu() {
                <SuggestCompanyForm onSubmitted={closeDialog}/>
             </Dialog>
             <nav className="items-center flex justify-between flex-wrap pt-4">
-                <Link href="/" className="uppercase font-bold">Impact Search</Link>
+                <Link href="/" className="uppercase font-bold">MARKETHIQUE</Link>
                 <div
                     className="md:hidden flex items-center cursor-pointer"
                     onClick={toggleMenu}

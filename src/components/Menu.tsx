@@ -5,6 +5,7 @@ import Button from "@/components/Button";
 import React, {useState} from "react";
 import Dialog from "@/components/Dialog";
 import SuggestCompanyForm from "@/components/forms/SuggestCompanyForm";
+import Image from "next/image";
 
 export default function Menu() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,7 +29,9 @@ export default function Menu() {
                <SuggestCompanyForm onSubmitted={closeDialog}/>
             </Dialog>
             <nav className="items-center flex justify-between flex-wrap pt-4">
-                <Link href="/" className="uppercase font-bold">MARKETHIQUE</Link>
+                <Link href="/" className="uppercase font-bold">
+                    <Image src="/images/logo.png" alt="Markethique" width={200} height={50}/>
+                </Link>
                 <div
                     className="md:hidden flex items-center cursor-pointer"
                     onClick={toggleMenu}
